@@ -1,10 +1,10 @@
 import React from 'react';
+import NavigationBar from '../components/NavBar';
 
 function LandingPage(){
     return(
         <div>
-            {/* Insert your created components here */}
-            <h1>Landing Page Component</h1>
+            <NavigationBar></NavigationBar>
         </div>
     )
 }
