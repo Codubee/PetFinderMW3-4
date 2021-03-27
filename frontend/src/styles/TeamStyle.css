@@ -4,6 +4,8 @@
     padding: 30px;
     margin-right: 20px;
     margin-top: 20px;
+    background-color: #A6E2DC;
+    
     
 }
 .card-title{
@@ -20,4 +22,8 @@
 }
 .card-image{
     width: 50%;
+}
+.card-style{
+    background-color: #A6E2DC;
+    
 }
