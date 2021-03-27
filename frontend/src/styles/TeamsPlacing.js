@@ -1,19 +1,22 @@
-import React from 'react';
-import TheTeams from '../components/TheTeam.js';
-import{Grid, Row, Col} from 'react-bootsrap';
+import React, {Component} from 'react';
+import TheTeam from '../components/TheTeam.js';
 
-const TeamsPlacing = (props) => {
-    return (
-        <div>
-            <Grid>
-                Card
-                <Row className="show-grid">
-                    <Col md="4">
-                        <TheTeams/>
-                    </Col>
-
-                </Row>
-            </Grid>
-        </div>
-    )
+class TeamsPlacing extends Component {
+    render() {
+        return(
+            <div className="container-fluid d-flex justify-content-center">
+                <div className="row">
+                    <div className="col-md-4">
+                        <Card/>
+                    </div>
+                    <div className="col-md-4">
+                        <Card/>
+                    </div>
+                    <div className="col-md-4">
+                        <Card/>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 }
