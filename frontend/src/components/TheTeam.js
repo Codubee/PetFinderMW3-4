@@ -1,66 +1,66 @@
 import React from 'react';
+import '../styles/TeamStyle.css';
+import img1 from '../assets/images/Bo_Mendez.jpg';
+import img2 from '../assets/images/Chelsea_Heredia.jpg';
+import img3 from '../assets/images/Tritian_Monis.png';
+import img4 from '../assets/images/Roshin_Lal.jpg';
+import img5 from '../assets/images/placement.png';
 import {
-  Card, Button, CardImg, CardTitle, CardText, CardGroup,
-  CardSubtitle, CardBody
+  Card, CardImg, CardTitle, CardText, CardBody, CardDeck, Col, Row
 } from 'reactstrap';
 const TheTeam = (props) => {
   return (
-    <CardGroup>
+      <CardDeck>
       <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <CardImg variant="top" src={img1} alt="Bo Mendez" />
         <CardBody>
-          <CardTitle tag="h5">Team Member #1</CardTitle>
-          <CardText>Major:</CardText>
-          <CardText>School Name:</CardText>
-          <CardText>Year:</CardText>
-          <Button>Button</Button>
+          <CardTitle tag="h6">Bo Mendez</CardTitle>
+          <CardText tag="h6">Major: Masters in Computer Science.</CardText>
+          <CardText tag="h6">School: Northeastern University</CardText>
+          <CardText tag="h6">Year: 1st Year Master's student</CardText>
         </CardBody>
       </Card>
+
       <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <CardImg src={img2} alt="Chelsea Heredia" />
         <CardBody>
-          <CardTitle tag="h5">Team Member #2</CardTitle>
-          <CardText>Major:</CardText>
-          <CardText>School Name:</CardText>
-          <CardText>Year:</CardText>
-          <Button>Button</Button>
+          <CardTitle tag="h6">Chelsea Heredia</CardTitle>
+          <CardText tag="h6">Major: Computer Science</CardText>
+          <CardText tag="h6">School: University of Texas at Dallas</CardText>
+          <CardText tag="h6">Year: Freshman (2020-2024)</CardText>
         </CardBody>
       </Card>
+
       <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <CardImg src={img3} alt="Tritian Monis" />
         <CardBody>
-          <CardTitle tag="h5">Team Member #3</CardTitle>
-          <CardText>Major:</CardText>
-          <CardText>School Name:</CardText>
-          <CardText>Year:</CardText>
-          <Button>Button</Button>
+          <CardTitle tag="h6">Tritian Monis</CardTitle>
+          <CardText tag="h6">Major: Information Technology & Systems</CardText>
+          <CardText tag="h6">School: University of Texas at Dallas</CardText>
+          <CardText tag="h6">Year: Junior (2018-2022)</CardText>
         </CardBody>
       </Card>
+
       <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <CardImg src={img4} alt="Roshin Lal" />
         <CardBody>
-          <CardTitle tag="h5">Team Member #4</CardTitle>
-          <CardText>Major:</CardText>
-          <CardText>School Name:</CardText>
-          <CardText>Year:</CardText>
-          <Button>Button</Button>
-        </CardBody>
-        <CardBody>
-          <CardTitle tag="h5">Team Member #5</CardTitle>
-          <CardText>Major:</CardText>
-          <CardText>School Name:</CardText>
-          <CardText>Year:</CardText>
-          <Button>Button</Button>
-        </CardBody>
-        <CardBody>
-          <CardTitle tag="h5">Team Member #6</CardTitle>
-          <CardText>Major:</CardText>
-          <CardText>School Name:</CardText>
-          <CardText>Year:</CardText>
-          <Button>Button</Button>
+          <CardTitle tag="h6">Roshin Lal</CardTitle>
+          <CardText tag="h6">Major: Computer Engineering</CardText>
+          <CardText tag="h6">School: Texas A&M University</CardText>
+          <CardText tag="h6">Year: Sophomore (2019-2023)</CardText>
         </CardBody>
       </Card>
-    </CardGroup>
+      
+      <Card>
+        <CardImg src={img5} alt="Pending" />
+        <CardBody>
+          <CardTitle tag="h6">Anjelica Avorque</CardTitle>
+          <CardText tag="h6">Major: Computer Science</CardText>
+          <CardText tag="h6">School: University of Texas at Dallas</CardText>
+          <CardText tag="h6">Year: Junior (2018-2022)</CardText>
+        </CardBody>
+      </Card>
+    </CardDeck>
   );
 };
 

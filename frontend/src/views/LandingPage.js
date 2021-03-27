@@ -4,7 +4,6 @@ function LandingPage(){
     return(
         <div>
             <TheTeam/>
-            <h1>Landing Page Component</h1>
         </div>
     )
 }
