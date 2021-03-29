@@ -80,16 +80,20 @@ const Tools = () => {
             
             
             {/* React */}
-            <Media>
-                <Media href="https://reactjs.org/">
-                    <img style={{height: 50, marginRight: 22, marginTop:5 }} src = "/Tools-img/React-logo.png"/>
-                </Media>
-                <Media body>
-                    <h5 style={{fontWeight: 700}}>React</h5>
-                    React is an open-source, front end, JavaScript library for building user interfaces or UI components.
-                    <br/>It is maintained by Facebook and a community of individual developers and companies.
-                </Media>
+            <div>
+                <Media>
+                    <Media href="https://reactjs.org/">
+                        <img style={{height: 50, marginRight: 22, marginTop:5 }} src = "/Tools-img/React-logo.png"/>
+                    </Media>
+                    <Media body>
+                        <h5 style={{fontWeight: 700}}>React</h5>
+                        React is an open-source, front end, JavaScript library for building user interfaces or UI components.
+                        <br/>It is maintained by Facebook and a community of individual developers and companies.
+                    </Media>
             </Media>
+            </div>
+            
+
         </div>
     );
 };
