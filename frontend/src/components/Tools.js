@@ -9,15 +9,11 @@ const Tools = () => {
             <h1>Tools</h1>
             <h4>Here are all the tools that we used to develop our app</h4>
 
-            {/* The logos have their own inline styling since the images were of different sizes 
-                Because of that, a consistent style guide would make formatting them properly
-                difficult */}
-
             {/* AWS */}
             <div className="tools-div" >
                 <Media>
                     <Media href="https://aws.amazon.com/" target="_blank">
-                        <img style={{ height: 30, marginRight: 20, marginLeft: 15, marginTop: 15 }} src="/Tools-img/AWS-logo.png" />
+                        <img className="AWS-logo" src="/Tools-img/AWS-logo.png" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Amazon Web Services (AWS)</h5>
@@ -32,7 +28,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://www.heroku.com/" target="_blank">
-                        <img style={{ height: 60, marginRight: 30, marginLeft: 15 }} src="/Tools-img/Heroku-logo.png" />
+                        <img className="Heroku-logo" src="/Tools-img/Heroku-logo.png" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Heroku</h5>
@@ -46,7 +42,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://www.atlassian.com/software/jira" target="_blank">
-                        <img style={{ height: 50, marginRight: 23, marginLeft: 10, marginTop: 17 }} src="/Tools-img/Jira-logo.png" />
+                        <img className="Jira-logo" src="/Tools-img/Jira-logo.png" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Jira</h5>
@@ -60,7 +56,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://nodejs.org/en/" target="_blank">
-                        <img style={{ height: 40, marginRight: 15, marginTop: 20 }} src="/Tools-img/NodeJS-logo.png" />
+                        <img className="NodeJS-logo" src="/Tools-img/NodeJS-logo.png" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Node JS</h5>
@@ -74,7 +70,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://postman.com" target="_blank">
-                        <img style={{ height: 50, marginRight: 20, marginTop: 5 }} src="/Tools-img/Postman-logo.png" />
+                        <img className="Postman-logo" src="/Tools-img/Postman-logo.png" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Postman API</h5>
@@ -88,7 +84,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://reactjs.org/" target="_blank">
-                        <img style={{ height: 50, marginRight: 22, marginTop: 10 }} src="/Tools-img/React-logo.png" />
+                        <img className="React-logo" src="/Tools-img/React-logo.png" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">React</h5>
