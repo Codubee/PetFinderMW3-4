@@ -1,4 +1,3 @@
-// This is where the explanation component will be created
 import React from 'react';
 function Explanation(){
     return(
