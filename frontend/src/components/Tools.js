@@ -3,7 +3,7 @@ import { Media } from 'reactstrap';
 import '../style/Tools.css';
 
 
-const Tools = () => {
+function Tools(){
     return (
         <div className="tools-div">
             <h1>Tools</h1>
@@ -13,7 +13,7 @@ const Tools = () => {
             <div className="tools-div" >
                 <Media>
                     <Media href="https://aws.amazon.com/" target="_blank">
-                        <img className="AWS-logo" src="/Tools-img/AWS-logo.png" />
+                        <img className="AWS-logo" src="/Tools-img/AWS-logo.png" alt="" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Amazon Web Services (AWS)</h5>
@@ -28,7 +28,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://www.heroku.com/" target="_blank">
-                        <img className="Heroku-logo" src="/Tools-img/Heroku-logo.png" />
+                        <img className="Heroku-logo" src="/Tools-img/Heroku-logo.png" alt="" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Heroku</h5>
@@ -42,7 +42,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://www.atlassian.com/software/jira" target="_blank">
-                        <img className="Jira-logo" src="/Tools-img/Jira-logo.png" />
+                        <img className="Jira-logo" src="/Tools-img/Jira-logo.png" alt="" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Jira</h5>
@@ -56,7 +56,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://nodejs.org/en/" target="_blank">
-                        <img className="NodeJS-logo" src="/Tools-img/NodeJS-logo.png" />
+                        <img className="NodeJS-logo" src="/Tools-img/NodeJS-logo.png" alt="" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Node JS</h5>
@@ -70,7 +70,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://postman.com" target="_blank">
-                        <img className="Postman-logo" src="/Tools-img/Postman-logo.png" />
+                        <img className="Postman-logo" src="/Tools-img/Postman-logo.png" alt="" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">Postman API</h5>
@@ -84,7 +84,7 @@ const Tools = () => {
             <div className="tools-div">
                 <Media>
                     <Media href="https://reactjs.org/" target="_blank">
-                        <img className="React-logo" src="/Tools-img/React-logo.png" />
+                        <img className="React-logo" src="/Tools-img/React-logo.png" alt="" />
                     </Media>
                     <Media body>
                         <h5 className="tools-header">React</h5>
