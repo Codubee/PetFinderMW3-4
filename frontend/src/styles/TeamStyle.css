@@ -1,17 +1,16 @@
 .team-welcome-title {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 100px;
+    margin: auto;
+    display: block;
+    padding: 10px;
 }
 .team-card{
     align-items: center;
     text-align: center;
-    width: 450px;
-    padding: 30px;
+    width: 400px;
+    padding: 15px;
     margin-right: 20px;
     margin-top: 20px;
     background-color: #F4DCD6 !important;
-    
 }
 .team-card-title{
     font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +25,9 @@
     font-size: 100%;
 }
 .team-card-pic{
-    width: 50%;
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .team-card-linkedin{
