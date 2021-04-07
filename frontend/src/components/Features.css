@@ -1,0 +1,25 @@
+.carousel-caption h3 { 
+    font-size: 70px !important;
+    color: white;
+    text-align: center;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+}
+.custom-tag {
+    max-width: 100%;
+    height: 760px;
+    background: #E4A58F;
+    }       
+
+.custom-tag-images {
+margin-left:17%;
+margin-top:25px;
+max-width: 100%;
+height:700px;
+}
+      
+
+
+

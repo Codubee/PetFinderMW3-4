@@ -9,6 +9,7 @@ import {
 
 import image1 from '../assets/frontpage_pets_image2.jpg';
 import image2 from '../assets/frontpage_connect_with_shelter_image.jpg';
+import '../components/Features.css';
 
 const items = [
   {
@@ -73,29 +74,6 @@ const Features = (props) => {
 
   return (
     <div>
-      <style>
-        {
-          `.custom-tag {
-              max-width: 100%;
-              height: 760px;
-              background: #E4A58F;
-            }`
-        }
-        {
-          `.custom-tag-images {
-            margin-left:270px;
-            margin-top:25px;
-            max-width: 100%;
-            height:700px;
-          }`
-        }
-        {/* {
-          `.custom-tag-title{
-            font-weight:bold;
-            font-size: 30px;
-          }`
-        } */}
-      </style>
 
       <Carousel
         activeIndex={activeIndex}
