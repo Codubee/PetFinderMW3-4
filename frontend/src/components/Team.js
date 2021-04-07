@@ -9,7 +9,7 @@ import {
   Card, CardImg, CardTitle, CardText, CardLink, CardBody, Row,
 } from 'reactstrap';
 
-function TheTeam() {
+function Team() {
 
   function teamInfo(pic, first, last, major, school, year, linkedIn, github) {
     this.pic = pic;
@@ -58,4 +58,4 @@ function TheTeam() {
   );
 }
 
-  export default TheTeam;
+  export default Team;
