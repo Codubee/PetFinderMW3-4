@@ -1,0 +1,12 @@
+.carousel-item {
+    max-width: 100%;
+    height: 760px;
+    background: #E4A58F;
+}
+
+.carousel-item-image {
+    margin-left:270px;
+    margin-top:25px;
+    max-width: 100%;
+    height:700px;
+}
