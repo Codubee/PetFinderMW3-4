@@ -8,7 +8,7 @@
     text-align: center;
     width: 400px;
     padding: 15px;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-top: 20px;
     background-color: #F4DCD6 !important;
 }
@@ -25,9 +25,13 @@
     font-size: 100%;
 }
 .team-card-pic{
-    width: 70%;
-    margin-right: 10px;
-    margin-left: 10px;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    overflow-x:hidden;
 }
 
 .team-card-linkedin{
