@@ -3,7 +3,10 @@ import NavigationBar from './components/NavBar';
 import LandingPage from './views/LandingPage'
 function App() {
   return (
-    <NavigationBar/>
+    <div>
+      <NavigationBar/>
+      <LandingPage/>
+    </div>
   );
 }
 
