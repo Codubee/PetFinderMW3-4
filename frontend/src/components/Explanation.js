@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/Explanation.css';
-
 function Explanation(){
     return(
         <div class = "jumbotron">
