@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/TeamStyle.css';
 import Chelsea_pic from '../assets/images/Chelsea_Heredia.jpg';
 import Tritian_pic from '../assets/images/Tritian_Monis.png';
 import Roshin_pic from '../assets/images/Roshin_Lal.jpg';
@@ -8,6 +7,7 @@ import Meet_Teams from '../assets/images/Meet_Teams.png';
 import {
   Card, CardImg, CardTitle, CardText, CardLink, CardBody, Row,
 } from 'reactstrap';
+import '../style/TeamStyle.css';
 
 function Team() {
 
