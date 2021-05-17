@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button,Container} from 'reactstrap'
+import Matches from '../components/Matches'
 import AnimalDescription from '../components/AnimalDescription'
 import '../style/Match.css'
 
@@ -20,6 +21,7 @@ class Match extends React.Component{
                     <Button className="ml-sm" color="danger">No</Button>
                 </div>
                 {/* Results components will go below this comment */}
+                <Matches/> 
             </Container>
         )
     }
