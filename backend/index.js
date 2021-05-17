@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
 const axios = require('axios');
+var cors = require('cors')
 app.use(express.json());
+app.use(cors())
 
 
 /*
@@ -27,4 +29,4 @@ app.get('/getAnimalDescription', function (req, res) {
     })
 })
 
-app.listen(8080, () => console.log('Listening at locahost:8080'))
+app.listen(process.env.PORT || 8080, () => console.log('Listening at locahost:8080'))
