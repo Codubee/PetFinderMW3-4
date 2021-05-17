@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
 const axios = require('axios');
+var cors = require('cors')
 app.use(express.json());
+app.use(cors())
 
 
 /*
@@ -9,9 +11,9 @@ app.use(express.json());
     when building your APIs. I suggest that you try to understand
     what each line is doing. Reach out if you have any questions.
 */
-app.get('/exampleApi', function (req, res) {
+app.get('/getAnimalDescription', function (req, res) {
 
-    axios.get('https://api.agify.io?name=Mike')
+    axios.get('https://codubee-projects-api.herokuapp.com/animal/getAnimalDescription')
     .then(function (response) {
         // handle success and send back a 200 response with the data
         console.log(response.data);
@@ -27,4 +29,4 @@ app.get('/exampleApi', function (req, res) {
     })
 })
 
-app.listen(8080, () => console.log('Listening at locahost:8080'))
+app.listen(process.env.PORT || 8080, () => console.log('Listening at locahost:8080'))
